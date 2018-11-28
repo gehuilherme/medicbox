@@ -41,8 +41,10 @@ void loop() {
   ciclo2:{
     while(cont <= 5){
       digitalWrite(led2, HIGH);
+      digitalWrite(led1, HIGH);
       delay(100);    
       digitalWrite(led2,LOW);
+      digitalWrite(led1,LOW);
       delay(100);
       tone(buz,1000,150);
       delay(1000);
